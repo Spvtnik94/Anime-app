@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Pokedex.css";
 
 function Pokedex() {
   return (
@@ -12,10 +13,14 @@ function Pokedex() {
               <div className='circle-second'>
               </div>
             </div>
-            <input type="text" className='search-bar' />
+            <div className='input-div'>
+              <input type="text" className='search-bar' />
+            </div>
           </div>
-          <div className='div=img'>
-            <img src={''} alt='pokemon' />
+          <div className='position'>
+            <div className='div-img'>
+              <img src={''} alt='pokemon' />
+            </div>
           </div>
         </div>
         <div className='pokedex-right'>
